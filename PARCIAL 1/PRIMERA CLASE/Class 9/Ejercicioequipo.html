@@ -1,0 +1,39 @@
+<script>
+ 
+    var componentes_pc = {
+
+
+     "tarjeta_madre" : {
+            "mtuno":"Asus",  
+            "mtdos" : "Aourus"
+    },
+            
+    "procesador" : {
+        pro_uno:"Intel", 
+        pro_dos:"AMD"
+    },
+            
+    "ram" :{
+        ram_uno:"8gb",
+        ram_dos:"16gb"
+    },
+
+    "disco_duro" :{
+        dd_uno:"500gb",
+        dd_dos:"1 tb",
+    } ,   
+
+    "unidad_solida" :{
+        un_uno:"120gb",
+        un_dos:"240gb",
+    }  ,  
+    "fuente_de_poder": {
+        fdp_uno:"evga", 
+        fdp_dos:"corsair"
+    },
+}
+
+    console.log(componentes_pc);
+    var usuario = prompt("inserte el componente:")
+    console.log(componentes_pc[usuario]);
+</script>

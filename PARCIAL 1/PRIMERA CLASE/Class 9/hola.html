@@ -1,0 +1,38 @@
+<script>
+var nombres = Array("oki", "okix2");
+
+var animales = ["perro", "gatox2","perrox2", "gato", "pajaro", "elefante", nombres];
+
+    var perro =[ "perro", "ok", 5.5, true, false, 1, "jaja", "jeje", 8, .5, false, true, "ju", animales]; 
+
+//console.log(perro);
+
+for (var x= 0; x < perro.lenght; x++) {
+    if(perro[x] == true){
+        console.log(perro[x]);
+    }
+}
+
+var nombreCompleto ="Emmanuel Torres Servin";
+//--Asociativo
+var humano= {
+    "nombre" : nombreCompleto, 
+    "apellido" : "Torres",
+    "edad" : 26,
+    "casado" : false,
+    "saludo" : "hola",
+    "musica": {
+        "rock": {
+            "genero": "alternativo",
+            "bandas" :{
+                "bandauno" : "Interpol",
+                "bandados" : "Artick",
+            }
+        },
+        "electronica": "psytrance"
+    },
+    "cosas" : perro, 
+}
+console.log(humano["cosas"][6]);
+
+</script>
